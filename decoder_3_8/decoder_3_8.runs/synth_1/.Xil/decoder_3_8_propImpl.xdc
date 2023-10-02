@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:{D:/OneDrive - zju.edu.cn/fpga/learn/decoder_3_8/decoder_3_8.srcs/constrs_1/new/decoder_3_8.xdc} rfile:../../../decoder_3_8.srcs/constrs_1/new/decoder_3_8.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N13 [get_ports a]
+set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N14 [get_ports b]
+set_property src_info {type:XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N15 [get_ports c]

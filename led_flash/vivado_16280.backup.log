@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 21 09:39:42 2023
+# Process ID: 16280
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3428 D:\OneDrive - zju.edu.cn\fpga\learn\led_flash\led_flash.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2021/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1121.656 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Sep 21 09:41:42 2023] Launched synth_1...
+Run output will be captured here: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/synth_1/runme.log
+[Thu Sep 21 09:41:42 2023] Launched impl_1...
+Run output will be captured here: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1/runme.log

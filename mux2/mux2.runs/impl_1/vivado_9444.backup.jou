@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep 20 11:14:47 2023
+# Process ID: 9444
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.runs/impl_1
+# Command line: vivado.exe -log mux2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux2.tcl -notrace
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.runs/impl_1/mux2.vdi
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mux2.tcl -notrace

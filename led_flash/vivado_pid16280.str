@@ -1,0 +1,161 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 16280
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Sep 21 09:40:10 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx2021/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx2021/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	William
+User home directory: C:/Users/William
+User working directory: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx2021/Vivado
+HDI_APPROOT: C:/Xilinx2021/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx2021/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx2021/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/William/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/William/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/William/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx2021/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/vivado.log
+Vivado journal file: 	D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/vivado.jou
+Engine tmp dir: 	D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/.Xil/Vivado-16280-DESKTOP-H2VR6T4
+
+Xilinx Environment Variables
+----------------------------
+FTSDK_DIR: C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\
+KINECTSDK10_DIR: C:\Program Files\Microsoft SDKs\Kinect\v1.8\
+XILINX: C:/Xilinx2021/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx2021/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx2021/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx2021/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx2021/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx2021/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,131 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\OneDrive - zju.edu.cn\fpga\learn\led_flash\led_flash.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,131 MB. GUI used memory: 61 MB. Current time: 9/21/23, 9:40:11 AM CST
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+115429kb) [00:00:17]
+// [Engine Memory]: 1,131 MB (+1034738kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  4452 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2021/Vivado/2021.1/data/ip'. 
+// Project name: led_flash; location: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash; part: xc7a100tfgg484-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1121.656 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 129 MB (+11230kb) [00:00:27]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 136 MB (+805kb) [00:01:02]
+// Elapsed time: 73 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // D
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Sep 21 09:41:42 2023] Launched synth_1... Run output will be captured here: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/synth_1/runme.log [Thu Sep 21 09:41:42 2023] Launched impl_1... Run output will be captured here: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_flash (led_flash.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_flash (led_flash.v)]", 1, false, false, false, false, false, true); // D - Double Click
+// bz (cs):  Opening Editor : addNotify
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,131 MB. GUI used memory: 84 MB. Current time: 9/21/23, 9:42:40 AM CST
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,131 MB. GUI used memory: 84 MB. Current time: 9/21/23, 9:43:10 AM CST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,131 MB. GUI used memory: 84 MB. Current time: 9/21/23, 9:43:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,131 MB. GUI used memory: 84 MB. Current time: 9/21/23, 9:45:10 AM CST

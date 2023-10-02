@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 21 09:39:42 2023
+# Process ID: 16280
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3428 D:\OneDrive - zju.edu.cn\fpga\learn\led_flash\led_flash.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

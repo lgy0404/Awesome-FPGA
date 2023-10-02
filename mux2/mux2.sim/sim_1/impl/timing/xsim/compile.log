@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.sim/sim_1/impl/timing/xsim/mux2_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.srcs/sim_1/new/tb_mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_tb

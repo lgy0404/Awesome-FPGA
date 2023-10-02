@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Oct  2 14:31:56 2023
+# Process ID: 9556
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/run_led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8864 D:\OneDrive - zju.edu.cn\fpga\learn\run_led\run_led.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/run_led/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/run_led\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/run_led/run_led.xpr}
+update_compile_order -fileset sources_1
+reset_project
+write_project_tcl -all_properties -use_bd_files {D:/OneDrive - zju.edu.cn/fpga/learn/run_led/run_led.tcl}
+cd D:\OneDrive - zju.edu.cn\fpga\learn\run_led
+cd D:/OneDrive - zju.edu.cn/fpga/learn/run_led
+ls
+source run_led.tcl
+update_compile_order -fileset sources_1
+current_project run_led
+close_project

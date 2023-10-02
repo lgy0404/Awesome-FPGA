@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 21 20:45:38 2023
+# Process ID: 23468
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/mux2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24596 D:\OneDrive - zju.edu.cn\fpga\learn\mux2\mux2.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/mux2/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/mux2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 21 09:48:04 2023
+# Process ID: 6028
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20560 D:\OneDrive - zju.edu.cn\fpga\learn\led_flash\led_flash.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source tb_led_tb.tcl
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {counter[24]} {counter[23]} {counter[22]} {counter[21]} {counter[20]} {counter[19]} {counter[18]} {counter[17]} {counter[16]} {counter[15]} {counter[14]} {counter[13]} {counter[12]} {counter[11]} {counter[10]} {counter[9]} {counter[8]} {counter[7]} {counter[6]} {counter[5]} {counter[4]} {counter[3]} {counter[2]} {counter[1]} {counter[0]}]]
+place_ports Reset_n N13
+place_ports Led D22
+place_ports Clk V4
+set_property IOSTANDARD LVCMOS33 [get_ports [list Clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Led]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Reset_n]]
+file mkdir {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.srcs/constrs_1/new}
+close [ open {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.srcs/constrs_1/new/led_flash.xdc} w ]
+add_files -fileset constrs_1 {{D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.srcs/constrs_1/new/led_flash.xdc}}
+set_property target_constrs_file {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.srcs/constrs_1/new/led_flash.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_led_tb.tcl
+run all
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1/led_flash.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1/led_flash.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+close_sim

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 21 10:02:02 2023
+# Process ID: 20180
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/mux2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6252 D:\OneDrive - zju.edu.cn\fpga\learn\mux2\mux2.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/mux2/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/mux2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/OneDrive - zju.edu.cn/fpga/learn/mux2/mux2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2021/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1136.160 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 21 10:23:31 2023...

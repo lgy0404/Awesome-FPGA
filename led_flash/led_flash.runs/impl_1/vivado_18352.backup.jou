@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 21 10:49:50 2023
+# Process ID: 18352
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1
+# Command line: vivado.exe -log led_flash.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source led_flash.tcl -notrace
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1/led_flash.vdi
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source led_flash.tcl -notrace

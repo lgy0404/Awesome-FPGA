@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep 20 22:00:57 2023
+# Process ID: 10108
+# Current directory: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5392 D:\OneDrive - zju.edu.cn\fpga\learn\led_flash\led_flash.xpr
+# Log file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/vivado.log
+# Journal file: D:/OneDrive - zju.edu.cn/fpga/learn/led_flash\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - zju.edu.cn/fpga/learn/led_flash/led_flash.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_led_tb.tcl
+run all
+close_sim
+launch_simulation
+source tb_led_tb.tcl
+run all
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {counter[24]} {counter[23]} {counter[22]} {counter[21]} {counter[20]} {counter[19]} {counter[18]} {counter[17]} {counter[16]} {counter[15]} {counter[14]} {counter[13]} {counter[12]} {counter[11]} {counter[10]} {counter[9]} {counter[8]} {counter[7]} {counter[6]} {counter[5]} {counter[4]} {counter[3]} {counter[2]} {counter[1]} {counter[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Led]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Reset_n]]
+place_ports Led E21
+close_sim
